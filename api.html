@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="include/style.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <section class="main_section">
+        <h1>New books API</h1>
+        <article>
+          Get All Books <br>(in JSON format) <br> by GET <br> https://newbookapp.herokuapp.com/getAllBooks
+        </article>
+        <article id="byId">
+          Get Book by Id <br> by POST put parameter = id <br> https://newbookapp.herokuapp.com/getBookData
+        </article>
+        <article id="byPriceAndPage">
+          Get List of Books <br> by Max price And Max Pages <br> by POST/PUT/GET <br> https://newbookapp.herokuapp.com/getBookByMaxPageAndMaxPrice/300/300 <br>
+          or put paramter = maxPage,maxPrice
+        </article>
+        <article id="jsonFormat">
+            Books json format<br>
+            { <br>
+              &nbsp;"libary_name":"alon libary",<br>
+              &nbsp;"books":[{<br>
+              &nbsp;&nbsp;&nbsp;"id":1,<br>
+              &nbsp;&nbsp;&nbsp;"name":"The Hunger Games",<br>
+              &nbsp;&nbsp;&nbsp;"num_of_pages":345,<br>
+              &nbsp;&nbsp;&nbsp;"price":40<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]<br>
+              }
+
+        </article>
+      </section>
+    </div>
+  </body>
+</html>

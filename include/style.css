@@ -1,0 +1,46 @@
+section,article,nav,aside,footer{
+  display: block;
+}
+
+#wrapper{
+  width: 1000px;
+  margin : 0px auto;
+  }
+
+.main_section{
+  width: 100%;
+  height: 600px;
+  background: url("../background.jpg") no-repeat;
+  position : relative;
+  text-align: center;
+  padding: 40px;
+}
+
+.main_section h1{
+  display: inline;
+  color: red;
+  font-size: 300%;
+}
+
+article{
+  position: absolute;
+  border : 1px solid white;
+  font-size: 120%;
+  color: red;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#byId{
+  top:220px;
+}
+
+#byPriceAndPage{
+  top: 322px;
+}
+
+#jsonFormat{
+  right:120px;
+  top:95px;
+  text-align: left;
+}

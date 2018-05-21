@@ -1,0 +1,54 @@
+{
+  "libary_name":"alon libary",
+  "books":[{
+    "id":1,
+    "name":"The Hunger Games",
+    "num_of_pages":345,
+    "price":40
+    },{
+      "id":2,
+      "name":"To Kill a Mockingbird",
+      "num_of_pages":500,
+      "price":25
+      },{
+        "id":3,
+        "name":"Pride and Prejudice",
+        "num_of_pages":300,
+        "price":15
+        },{
+          "id":4,
+          "name":"The Book Thief",
+          "num_of_pages":700,
+          "price":70
+          },{
+            "id":5,
+            "name":"Animal Farm",
+            "num_of_pages":675,
+            "price":30
+            },{
+              "id":6,
+              "name":"The Fault in Our Stars",
+              "num_of_pages":250,
+              "price":7
+              },{
+                "id":7,
+                "name":"The Giving Tree",
+                "num_of_pages":15,
+                "price":4
+                },{
+                  "id":8,
+                  "name":"Memoirs of a Geisha",
+                  "num_of_pages":800,
+                  "price":60
+                  },{
+                    "id":9,
+                    "name":"Romeo and Juliet",
+                    "num_of_pages":300,
+                    "price":20
+                    },{
+                      "id":10,
+                      "name":"Jane Eyre",
+                      "num_of_pages":300,
+                      "price":20
+                      }]
+                    }
